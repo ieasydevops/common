@@ -9,7 +9,7 @@ type ServerRunOptions struct {
 
 func NewServerRunOptions() *ServerRunOptions {
 	s := ServerRunOptions{
-		Name:"mock cmd server ",
+		Name:" Mock  Server ",
 		AliveTime:  1 * time.Second,
 	}
 	return &s
