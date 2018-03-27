@@ -24,9 +24,21 @@ func (this *ProgramCreator)Create() Worker {
 	return new(Programmer)
 }
 
+type Farmer struct {
 
+}
 
+type FarmerCreator struct {
 
+}
+
+func (this *Farmer)DoWork(task *string) {
+	fmt.Printf("I'm a Farmer. My work is doing farm work,current project is:%s\n", *task)
+}
+
+func (this *FarmerCreator)Create() Worker {
+	return new(Farmer)
+}
 
 
 

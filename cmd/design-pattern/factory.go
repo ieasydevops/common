@@ -10,9 +10,9 @@ func main() {
 	taskProject := "ProgramProject"
 	p.DoWork(&taskProject)
 
-
-
-
-
+	c = new(f.FarmerCreator)
+	fa := c.Create()
+	taskFarmLand := "farmland"
+	fa.DoWork(&taskFarmLand)
 
 }
