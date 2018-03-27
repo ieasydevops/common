@@ -1,6 +1,6 @@
 package factory
 
-import "github.com/go/src/fmt"
+import "fmt"
 
 type Worker interface {
 	DoWork(task *string)

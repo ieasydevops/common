@@ -1,6 +1,6 @@
 package main
 
-import f "github.com/meixinyun/common/cmd/design-pattern/factory"
+import f "github.com/meixinyun/common/cmd/design-pattern/abstract-factory/factory"
 
 func main() {
 
