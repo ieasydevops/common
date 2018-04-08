@@ -10,7 +10,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/meixinyun/common/pkg/version"
 	"github.com/meixinyun/common/pkg/server/mock"
-	"github.com/spf13/cobra/cobra"
+	"github.com/spf13/cobra"
 )
 
 func NewCmdServerCommand() *cobra.Command {
