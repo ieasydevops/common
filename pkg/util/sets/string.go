@@ -1,8 +1,5 @@
 package sets
 
-
-
-
 import (
 	"reflect"
 	"sort"

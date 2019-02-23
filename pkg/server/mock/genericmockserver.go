@@ -10,13 +10,22 @@ type GenericMockServer struct {
 	options *options.ServerRunOptions
 }
 
+func (s *GenericMockServer)startProducer()  {
+
+
+}
+
+
 func (s *GenericMockServer) Run(stopCh <-chan struct{}) error {
 	wait.Until(func() {
 		log.Printf("Hello,I'm %s ", s.options.Name)
-
 	}, s.options.AliveTime, stopCh)
 	return nil
 }
+
+
+
+
 
 func CreateMockServer(runOptions *options.ServerRunOptions) (*GenericMockServer, error) {
 	server := &GenericMockServer{options:runOptions}

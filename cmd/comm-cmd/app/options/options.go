@@ -5,6 +5,7 @@ import "time"
 type ServerRunOptions struct {
 	Name      string
 	AliveTime time.Duration
+	BufChannel   chan interface{}
 }
 
 func NewServerRunOptions() *ServerRunOptions {
